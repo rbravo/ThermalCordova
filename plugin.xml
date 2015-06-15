@@ -29,6 +29,7 @@
         <js-module src="src/windows/ThermalCordovaProxy.js" name="ThermalCordovaProxy">
             <merges target="" />
         </js-module>
+        <framework src="src/windows/ThermalDotNet.dll" custom="true"/>
     </platform>
 
 </plugin>
